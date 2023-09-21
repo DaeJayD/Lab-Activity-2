@@ -1,0 +1,23 @@
+import time
+Studentname = input("Full name: ")
+Studentid = input("ID: ")
+Studentcourse = input("Course: ")
+Studentsection = input("Section: ")
+time.sleep(1)
+firstquarter = int(input("Please enter your first quarter grade: "))
+secondquarter = int(input("Please enter your second quarter grade: "))
+thirdquarter = int(input("Please enter your third quarter grade: "))
+fourthquarter = int(input("Please enter your fourth quarter grade: "))
+
+average = (firstquarter + secondquarter + thirdquarter + fourthquarter)/4
+time.sleep(1)
+print("Name: " +Studentname)
+time.sleep(0.5)
+print ("ID: " +Studentid)
+time.sleep(0.5)
+print("Course: " +Studentcourse)
+time.sleep(0.5)
+print("Section: " +Studentsection)
+print("Your four grades are: " +str(firstquarter) + ", " + str(secondquarter) + ", " + str(thirdquarter) + ", " + str(fourthquarter))
+time.sleep(0.5)
+print ("Your average grade is: " + str(average))
